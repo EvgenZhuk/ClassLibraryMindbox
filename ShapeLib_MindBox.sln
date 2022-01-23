@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibraryMindbox", "ClassLibraryMindbox\ClassLibraryMindbox.csproj", "{566794F0-76D6-439B-8CEB-06BAF2B043D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShapeLib_MindBox", "ClassLibraryMindbox\ShapeLib_MindBox.csproj", "{566794F0-76D6-439B-8CEB-06BAF2B043D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapeLib_MindBox.Tests", "ShapeLib_MindBox.Tests\ShapeLib_MindBox.Tests.csproj", "{BD42F246-3F09-4B8D-9A9D-BB44F3B53748}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{566794F0-76D6-439B-8CEB-06BAF2B043D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{566794F0-76D6-439B-8CEB-06BAF2B043D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{566794F0-76D6-439B-8CEB-06BAF2B043D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD42F246-3F09-4B8D-9A9D-BB44F3B53748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD42F246-3F09-4B8D-9A9D-BB44F3B53748}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD42F246-3F09-4B8D-9A9D-BB44F3B53748}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD42F246-3F09-4B8D-9A9D-BB44F3B53748}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
